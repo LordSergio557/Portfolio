@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Activitat 1 - Operacions amb 2 nombres</title>
+  </head>
+  <body>
+    <header>
+      <!-- Background image -->
+      <div class="pb-5 text-center bg-image">
+        <img id="banner" src="Banner.jpg">
+      </div>
+      <!-- Background image -->
+    </header>
+    <div class="block">
+      <div class="pb-3">
+        Nombre 1: <input id="primerNombre"><br>
+      </div>
+      <div class="pb-3">
+        Nombre 2: <input type="text" id="segonNombre"><br>
+      </div>
+      <button onclick="suma()" class="btn fourth">Suma</button>
+      <button onclick="resta()" class="btn fourth">Resta</button>
+      <button onclick="producte()" class="btn fourth">Producte</button>
+      <button onclick="divisio()" class="btn fourth">Divisió</button>
+
+    <p class="pt-3">Resutat :
+      <span id="resultat"></span>
+    </p>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

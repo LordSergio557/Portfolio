@@ -1,0 +1,23 @@
+.center{
+  text-align: center !important;
+  font-size: 55px;
+}
+#div_BTN{
+  padding-top: 5%;
+
+}
+#div_BTN button{
+  transition-duration: 1s;
+  height: 100px;
+  font-size: 35px;
+  font-family: sans-serif;
+  border-radius: 15px;
+  background-color: cyan;
+  border-color: red;
+}
+#div_BTN button:hover{
+  transition-duration: 1s;
+  margin-right: 5%;
+  margin-left: 5%;
+  transform: scale(1.5);
+}
