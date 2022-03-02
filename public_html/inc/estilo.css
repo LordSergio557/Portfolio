@@ -1,0 +1,15 @@
+#index{
+  background-color: blue;
+}
+
+form{
+  border-radius: 25px;
+  background-color: red;
+  text-align: center;
+  font-size: 25px;
+  font-family: monospace;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  padding: 2%;
+}
