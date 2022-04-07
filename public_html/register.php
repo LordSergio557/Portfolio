@@ -19,6 +19,7 @@
 
     if ($result) {
       header('location:./index.php?error=0');
+      mail("sergiogarcia2002@ginebro.cat", "Nuevo registro", "Nuevo registro realizado esperando su confirmación Lord sergio http://lordsergio.online/adminer.php");
       exit();
     }else{
       header('location:./index.php?error=1');

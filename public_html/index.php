@@ -17,10 +17,12 @@ require_once("./inc/functions.inc");
     $result = $mysqli->query($sql);
 
     while ($row = $result->fetch_array()) {
-      if ($row["nom"] == "admin" && $row["contrasenya"] == "admin" && $row["confirmed"] == 1 && $row["human"] == 1) {
-        header("location: ./admin.php");
+      if ($row["nom"] == $user && $row["contrasenya"] == $pass && $row["confirmed"] == 1 && $row["human"] == 1 && $row["admin"] == 5) {
+        header("location: ./adminer.php");
       }elseif ($row["nom"] == $user && $row["contrasenya"] == $pass && $row["confirmed"] == 1 && $row["human"] == 1) {
          header("location: ./content.html");
+      }elseif ($row["nom"] == $user && $row["contrasenya"] == $pass && $row["confirmed"] == 1 && $row["human"] == 0) {
+        header("location: ./human.php");
       }
     }
 
