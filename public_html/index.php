@@ -13,7 +13,7 @@ require_once("./inc/functions.inc");
   $pass = isset($_POST["pass"])?$_POST["pass"]:"";
 
 
-    $sql = "SELECT nom, contrasenya, confirmed, human FROM users";
+    $sql = "SELECT nom, contrasenya, confirmed, human, admin FROM users";
     $result = $mysqli->query($sql);
 
     while ($row = $result->fetch_array()) {

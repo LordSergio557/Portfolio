@@ -13,3 +13,12 @@ form{
   left: 40%;
   padding: 2%;
 }
+
+#cookies{
+  position: absolute;
+  top: 40%;
+  left: 0;
+  text-align: center;
+  font-size: 55px;
+  background-color: gray;
+}
