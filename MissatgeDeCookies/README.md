@@ -15,9 +15,9 @@ A continuación creamos un if (condición) que si se cumple (para que se cumpla 
 Esta función esta hecha de tal manera que una vez accionas el botón de aceptar cookies se oculta dicha ventana y se guarda en el local storage el día actual, así cada vez que se actualiza la pagina y se repita la secuencia descrita anteriormente al haber guardado el día actual en el local storage no se mostrara la ventana hasta pasados 3 días.
 ***
 ## Progreso
- - [ ] Creación nueva rama
- - [ ] Implementación de la ventana de cookies en content.html
- - [ ] Creación de la sequencia de codigo js en scripts.js
- - [ ] Validar funcionamiento y corregir posibles errores
- - [ ] Hacer un merge a la rama principal
+ - [x] Creación nueva rama
+ - [x] Implementación de la ventana de cookies en content.html
+ - [x] Creación de la sequencia de codigo js en scripts.js
+ - [x] Validar funcionamiento y corregir posibles errores
+ - [x] Hacer un merge a la rama principal
  - [ ] Que el pardo vea este README y me ponga un 9.99 y marque esta casilla :)
