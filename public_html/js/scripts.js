@@ -38,14 +38,14 @@ let data = new Date;
     let diaAnterior = JSON.parse(localStorage.getItem('dia'));
 
     if( data.getDate() - diaAnterior >3 || diaAnterior == null){
-        //apareixer menu
+        //Aparece el menu si han pasado menos de 3 dias o si no hay valores en el localStorage
         document.getElementById("cookies").style.display = "block";
     }else {
       document.getElementById("cookies").style.display = "none";
     }
 
 function guardarDatos(){
-    //cuan fa click es guarden les dades i es tanca el avis
+    //Cuando se pulsa el botón de aceptar cookies se cierra la ventana
     document.getElementById("cookies").style.display = "none";
     localStorage.setItem('dia',data.getDate());
 }
