@@ -6,3 +6,4 @@
   Finalmente tenemos la etiqueta button que es básicamente un botón que con el atributo onclick cuando se acciona dicho botón se ejecuta una función de js que se explicara a continuación.
 
  2. Ahora vamos a crear la secuencia que seguirá la web para hacer funcional la ventana de cookies. La crearemos en scripts.js
+![image](https://user-images.githubusercontent.com/73952835/162233951-c6b5ef4f-6525-4629-bc3f-58011af955e0.png)
