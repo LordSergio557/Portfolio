@@ -12,7 +12,7 @@
    </head>
    <body>
      <form action="" method="POST">
-      <div class="g-recaptcha" data-sitekey="http://lordsergio.online"></div>
+      <div class="g-recaptcha" data-sitekey="6Ldi574fAAAAAA3aOazUKf4r3-FUqbuFq5eEae85"></div>
       <br/>
       <input type="submit" value="Submit">
     </form>
