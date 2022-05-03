@@ -14,7 +14,7 @@
   $mail = isset($_POST["mail"])?$_POST["mail"]:"";
 
   if ($user != "" && $pass != "" && $mail != "") {
-    $sql = "INSERT INTO users  (nom, contrasenya, mail, human, confirmed, pending) VALUES ('$user', $pass, '$mail', 0, 0, 1)";
+    $sql = "INSERT INTO users  (nom, contrasenya, mail, confirmed, pending) VALUES ('$user', $pass, '$mail', 0, 1)";
     $result = $mysqli->query($sql);
 
     if ($result) {
