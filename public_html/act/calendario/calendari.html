@@ -1,0 +1,29 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Calendari mes en curs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="calendari.css" />
+</head>
+
+<body>
+  <table id="laMevaTaula">
+
+  </table>
+  <!-- [Quadre de diàleg] -->
+  <div id="quadreDialeg-contorn">
+    <div id="quadreDialeg-caixa">
+      <div id="quadreDialeg-botoTancar" onclick="AfegirComentari.tancar()">X</div>
+      <h1 id="quadreDialeg-titol"></h1>
+      <h2 id="quadreDialeg-subtitol"></h2>
+      <input type="hidden" id="dia_actual_hidden">
+      <input type="text" id="comentari_input">
+      <br>
+      <button id="guardar" onclick="AfegirComentari.guardar()">Guardar</button>
+      <button id="tancar" onclick="AfegirComentari.borrar()">Borrar</button>
+    </div>
+  </div>
+</body>
+
+</html>
+<script src="calendari.js"></script>

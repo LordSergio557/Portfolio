@@ -1,0 +1,51 @@
+.a {
+    background-repeat: no-repeat;
+    height:1000px;
+    width: 1000px;
+}
+
+.c00{
+    background-image: url("./imagenes/00.jpg");
+}
+.c01{
+    background-image: url("./imagenes/01.jpg");
+}
+.c02{
+    background-image: url("./imagenes/02.jpg");
+}
+.c10{
+    background-image: url("./imagenes/10.jpg");
+}
+.c12{
+    background-image: url("./imagenes/12.jpg");
+}
+.c20{
+    background-image: url("./imagenes/20.jpg");
+}
+
+
+.c21{
+    background-image: url("./imagenes/21.jpg");
+}
+
+.c11{
+    background-image: url("./imagenes/11.jpg");
+}
+
+.c22{
+    background-image: url("./imagenes/22.jpg");
+}
+
+#tempolizador {
+    font: normal 2em digital_dream, europa, arial;
+}
+
+.c11{
+    background-image: url("./imagenes/11.jpg");
+}
+.c21{
+    background-image: url("./imagenes/21.jpg");
+}
+.c22{
+    background-color:white;
+}

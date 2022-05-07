@@ -1,0 +1,218 @@
+body{
+  background-image: url("img/fondo.jpg");
+  color: #FF00BD;
+  text-shadow:
+    0 0 7px #FF00BD,
+    0 0 10px #FF00BD,
+    0 0 21px #FF00BD,
+    0 0 42px #00FFE0,
+    0 0 82px #00FFE0,
+    0 0 92px #00FFE0,
+    0 0 102px #00FFE0,
+    0 0 151px #00FFE0;
+}
+#laMevaTaula{
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 55px;
+}
+
+#laMevaTaula td{
+  border: 2px solid #FF00BD !important;
+  color: #00FFE0;
+  text-shadow:
+    0 0 7px #00FFE0,
+    0 0 10px #00FFE0,
+    0 0 21px #00FFE0,
+    0 0 42px red,
+    0 0 82px red,
+    0 0 92px red,
+    0 0 102px red,
+    0 0 151px red;
+}
+
+#laMevaTaula td:nth-child(6){
+  color: red;
+  text-shadow:
+    0 0 7px red,
+    0 0 10px red,
+    0 0 21px red,
+    0 0 42px #00FFE0,
+    0 0 82px #00FFE0,
+    0 0 92px #00FFE0,
+    0 0 102px #00FFE0,
+    0 0 151px #00FFE0;
+}
+
+#laMevaTaula td:nth-child(7){
+  color: red;
+  text-shadow:
+    0 0 7px red,
+    0 0 10px red,
+    0 0 21px red,
+    0 0 42px #00FFE0,
+    0 0 82px #00FFE0,
+    0 0 92px #00FFE0,
+    0 0 102px #00FFE0,
+    0 0 151px #00FFE0;
+}
+
+#laMevaTaula p{
+  margin: 0;
+  cursor: pointer;
+}
+
+.dia{
+  color: yellow !important;
+  text-shadow:
+    0 0 7px yellow,
+    0 0 10px yellow,
+    0 0 21px yellow,
+    0 0 42px red,
+    0 0 82px red,
+    0 0 92px red,
+    0 0 102px red,
+    0 0 151px red !important;
+}
+
+.cambiarMes{
+  user-select: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #FF7800;
+  text-shadow:
+    0 0 7px #FF7800,
+    0 0 10px #FF7800,
+    0 0 21px #FF7800,
+    0 0 42px #49FF00,
+    0 0 82px #49FF00,
+    0 0 92px #49FF00,
+    0 0 102px #49FF00,
+    0 0 151px #49FF00;
+}
+
+.comentari{
+  color: white !important;
+  text-shadow:
+    0 0 7px white,
+    0 0 10px white,
+    0 0 21px white,
+    0 0 42px black,
+    0 0 82px black,
+    0 0 92px black,
+    0 0 102px black,
+    0 0 151px black !important;
+  font-size: 25px;
+}
+
+#quadreDialeg-contorn {
+  display: none;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#quadreDialeg-caixa {
+  background-image: url("img/ginefoto.png");
+  background-repeat: no-repeat;
+  position: relative;
+  min-width: 300px;
+  max-width: 400px;
+  padding: 10px;
+  margin: 40vh auto 0 auto;
+}
+
+#quadreDialeg-botoTancar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  background: #f54242;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+@media(max-width: 1500px){
+  #laMevaTaula{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 45px !important;
+  }
+  .comentari{
+    font-size: 45px !important;
+  }
+}
+@media(max-width: 1230px){
+  #laMevaTaula{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px !important;
+  }
+  .comentari{
+    font-size: 40px !important;
+  }
+}
+@media(max-width: 1100px){
+  #laMevaTaula{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px !important;
+  }
+  .comentari{
+    font-size: 30px !important;
+  }
+}
+@media(max-width: 960px){
+  #laMevaTaula{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px !important;
+  }
+  .comentari{
+    font-size: 25px !important;
+  }
+}
+@media(max-width: 830px){
+  #laMevaTaula{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px !important;
+  }
+  .comentari{
+    font-size: 20px !important;
+  }
+}
+@media(max-width: 700px){
+  #laMevaTaula{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px !important;
+  }
+  .comentari{
+    font-size: 15px !important;
+  }
+}
+@media(max-width: 560px){
+  #laMevaTaula{
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10px !important;
+  }
+  .comentari{
+    font-size: 10px !important;
+  }
+}

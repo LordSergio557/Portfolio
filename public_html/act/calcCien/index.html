@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora Cientifica</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <span>
+    <h1 style="text-align:center" id="titolcalculadora">Calculadora (Básica)</h1>
+    <table id="tablecentermain">
+      <tr>
+        <td>
+          <table border=1 id="tablecenter">
+            <tr>
+              <td colspan="4">
+                <div id="num" class="resultat">
+                  <p id="pantalla"></p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td class="simbol tecla" id="c" onclick="pulsacion(this)">
+                <b>C</b>
+              </td>
+              <td colspan="2" class="simbol tecla" id="cien" onclick="pulsacion(this)">
+                <b>Cientifica</b>
+              </td>
+              <td class="simbol tecla" id="+" onclick="pulsacion(this)">
+                <b>+</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="tecla" id="7" onclick="pulsacion(this)">
+                <b>7</b>
+              </td>
+              <td class="tecla" id="8" onclick="pulsacion(this)">
+                <b>8</b>
+              </td>
+              <td class="tecla" id="9" onclick="pulsacion(this)">
+                <b>9</b>
+              </td>
+              <td class="simbol tecla" id="-" onclick="pulsacion(this)">
+                <b>-</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="tecla" id="4" onclick="pulsacion(this)">
+                <b>4</b>
+              </td>
+              <td class="tecla" id="5" onclick="pulsacion(this)">
+                <b>5</b>
+              </td>
+              <td class="tecla" id="6" onclick="pulsacion(this)">
+                <b>6</b>
+              </td>
+              <td class="simbol tecla" id="*" onclick="pulsacion(this)">
+                <b>*</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="tecla" id="1" onclick="pulsacion(this)">
+                <b>1</b>
+              </td>
+              <td class="tecla" id="2" onclick="pulsacion(this)">
+                <b>2</b>
+              </td>
+              <td class="tecla" id="3" onclick="pulsacion(this)">
+                <b>3</b>
+              </td>
+              <td class="simbol tecla" id="/" onclick="pulsacion(this)">
+                <b>/</b>
+              </td>
+            </tr>
+            <tr>
+              <td class="tecla" id="0" onclick="pulsacion(this)">
+                <b>0</b>
+              </td>
+              <td class="simbol tecla" id="." onclick="pulsacion(this)">
+                <b>.</b>
+              </td>
+              <td class="simbol tecla" id="+/-" onclick="pulsacion(this)">
+                <b>+/-</b>
+              </td>
+              <td class="simbol tecla" id="=" onclick="pulsacion(this)">
+                <b>=</b>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table border=1 id="tabCien">
+            <tr>
+              <td colspan="2" class="simbol tecla" id="e">
+                <b>e</b>
+              </td>
+              <td colspan="2" class="simbol tecla" id="n">
+                <b>n</b>
+              </td>
+              <td colspan="2" class="simbol tecla" id="ln10">
+                <b>Ln 10</b>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="simbol tecla" id="sinus">
+                <b>Sinus</b>
+              </td>
+              <td colspan="2" class="simbol tecla" id="cosinus">
+                <b>Cosinus</b>
+              </td>
+              <td colspan="2" class="simbol tecla" id="tangent">
+                <b>Tangent</b>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="simbol tecla" id="asinus">
+                <b>ASinus</b>
+              </td>
+              <td colspan="2" class="simbol tecla" id="secant">
+                <b>Secant</b>
+              </td>
+              <td colspan="2" class="simbol tecla" id="cotangent">
+                <b>Cotangent</b>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="simbol tecla" id="arrodadalt">
+                <b>Arrod ↑</b>
+              </td>
+              <td colspan="2" class="simbol tecla" id="arroddreta">
+                <b>Arrod →</b>
+              </td>
+              <td colspan="2" class="simbol tecla" id="arrodabaix">
+                <b>Arrod ↓</b>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2" class="simbol tecla" id="logaritme">
+                <b>Logaritme</b>
+              </td>
+              <td colspan="2" class="simbol tecla" id="xo">
+                <b>Xº</b>
+              </td>
+              <td colspan="2" class="simbol tecla" id="arrelcuadrada">
+                <b>√</b>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </span>
+  <script type="text/javascript" src="./function.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+#tablecenter {
+    margin-left:auto;
+    margin-right:auto;
+    border-color: black;
+    border-spacing: 10px;
+    background-color: grey;
+}
+
+#tablecentermain {
+    margin-left:auto;
+    margin-right:auto;
+    border-color: black;
+    border-spacing: 10px;
+}
+
+#pantalla{
+  text-align: right;
+}
+.resultat {
+    padding-right:25px;
+    padding-left:25px;
+    padding-top:25px;
+    padding-bottom:25px;
+    background-color: goldenrod;
+}
+
+.tecla {
+    padding-right:25px;
+    padding-left:25px;
+    padding-top:25px;
+    padding-bottom:25px;
+    background-color: whitesmoke;
+}
+
+.simbol {
+    color: goldenrod;
+}
+
+.tecla:hover {
+    background-color: lightgray;
+}
+
+.tecla:active {
+    background-color: grey;
+}
